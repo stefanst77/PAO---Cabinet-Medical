@@ -1,5 +1,8 @@
 package cabinet;
 
+import cabinet.readwriteservice.WriteService;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ClientService {
@@ -9,7 +12,10 @@ public class ClientService {
         System.out.println("2. Afisare lista pacientilor copii; ");
         System.out.println("3. Afisare lista pacientilor salariati; ");
         System.out.println("4. Afisare lista pacientilor pensionari; ");
-        System.out.println("5. Adaugare pacient");
+        System.out.println("5. Adaugare pacient; ");
+        System.out.println("6. Afisare lista sortata a pacientilor; ");
+        System.out.println("7. Editezi datele unei persoane; ");
+        System.out.println("8. Daca vrei sa iesi... apasa 8...");
     }
 
     public static void afisareClienti(Client[] listaClienti)
@@ -18,6 +24,8 @@ public class ClientService {
         for (Client client : listaClienti)
             System.out.println(client.toString());
         System.out.println();
+
+        WriteService.writeIstoric("afisareClienti", true);
     }
 
     public static void afisareCopii(Client[] listaClienti)
@@ -27,6 +35,8 @@ public class ClientService {
             if (client.getClass().equals(Copil.class))
                 System.out.println(client.toString());
         System.out.println();
+
+        WriteService.writeIstoric("afisareCopii", true);
     }
 
     public static void afisareSalariati(Client[] listaClienti)
@@ -36,6 +46,8 @@ public class ClientService {
             if (client.getClass().equals(Salariat.class))
                 System.out.println(client.toString());
         System.out.println();
+
+        WriteService.writeIstoric("afisareSalariati", true);
     }
 
     public static void afisarePensionari(Client[] listaClienti)
@@ -45,6 +57,24 @@ public class ClientService {
             if (client.getClass().equals(Pensionar.class))
                 System.out.println(client.toString());
         System.out.println();
+
+        WriteService.writeIstoric("afisarePensionari", true);
+    }
+
+    // functia de sortare
+    public static void afisareListaClientiSortat(Client[] listaClienti)
+    {
+        System.out.println("Lista pacientilor sortata dupa id: ");
+        for (Client c : listaClienti)
+            System.out.println(c.toString());
+        SortComparator sortare = new SortComparator();
+        Arrays.sort(listaClienti, sortare);
+        System.out.println("\nLista clientilor sortata dupa nume si prenume: ");
+        for (Client c : listaClienti)
+            System.out.println(c.toString());
+        System.out.println();
+
+        WriteService.writeIstoric("afisareListaClientiSortat", true);
     }
 
     public static Client[] adaugaClient(Client[] listaClienti, Client client) {
@@ -52,6 +82,8 @@ public class ClientService {
         for (int i = 0; i < listaClienti.length; i++)
             listaClientiNoua[i] = listaClienti[i];
         listaClientiNoua[listaClienti.length] = client;
+
+        WriteService.writeIstoric("adaugaClient", true);
         return listaClientiNoua;
     }
 
@@ -69,20 +101,22 @@ public class ClientService {
         System.out.println("Varsta pacientului: ");
         int varsta = scanner.nextInt();
         System.out.println("CNP-ul pacientului: ");
-        String CNP = scanner.nextLine();
+        String CNP = scanner.next();
         System.out.println("Numarul de afectiuni ale pacientului: ");
         int nrAfectiuni = scanner.nextInt();
         System.out.println("Afectiunile pacientului: ");
         String[] afectiuni = new String[nrAfectiuni];
         for (int i = 0; i < nrAfectiuni; i++) {
-            String afectiune = scanner.nextLine();
+            String afectiune = scanner.next();
             afectiuni[i] = afectiune;
         }
         Client client = new Client(nume, prenume, sex, varsta, CNP, afectiuni);
         System.out.println(client.toString());
 
-        Client[] listaClientiNoua = adaugaClient(listaClienti, client);
-        return listaClientiNoua;
+        listaClienti = ClientService.adaugaClient(listaClienti, client);
+
+        WriteService.writeIstoric("afisareAdaugaClient", true);
+        return listaClienti;
     }
 
     public static Client[] editarePersoana (Client[] listaClienti) {
@@ -95,7 +129,7 @@ public class ClientService {
         System.out.println("3. Sexul; ");
         System.out.println("4. Varsta; ");
 
-        System.out.println("5. Avectiunile;");
+        System.out.println("5. Afectiunile;");
         int optiune = scanner.nextInt();
         for(Client client : listaClienti){
             if(client.getCNP().equals(CNP)){
@@ -137,6 +171,8 @@ public class ClientService {
                 break;
             }
         }
+
+        WriteService.writeIstoric("editarePersoana", true);
         return listaClienti;
     }
 }

@@ -1,0 +1,13 @@
+Pacientul cu id-ul 2, pe nume Ana Cimpanzeu, sex: F, varsta 18, CNP: 3123456783212, are afectiunile: [durere spate, ceva urat la sau in cap]. 
+Pacientul cu id-ul 2, pe nume Ana Maria, sex: F, varsta 18, CNP: 3109876543212, are afectiunile: [durere spate, ceva]. . Pacientul este un pensionar, avand cuponul de pensie 105, pensia de 500 RON si bedeficiaza de o derucere de7..
+Pacientul cu id-ul 7, pe nume Arthur Cosmin, sex: M, varsta 25, CNP: 512345678910, are afectiunile: [tuse, febra, arsura]. 
+Pacientul cu id-ul 3, pe nume Carl Stefan, sex: M, varsta 25, CNP: 515378910, are afectiunile: [tuse, febra, migrene]. Pacientul este un copil. Tutorele se numeste Cutare cumva, cu numar de telefon 0712345678.
+Pacientul cu id-ul 6, pe nume Carl Vasile, sex: M, varsta 25, CNP: 512345678910, are afectiunile: [tuse, febra, greata]. Pacientul este un copil. Tutorele se numeste Ceva altceva, cu numar de telefon 123456789053.
+Pacientul cu id-ul 3, pe nume Cioara Marcel, sex: M, varsta 69, CNP: 07NoiDoiSiCevaBuzeMoi, are afectiunile: [lipsa rinichi, gaura cap, inca ceva la celalalt picior]. 
+Pacientul cu id-ul 9, pe nume Ferdinand Savin, sex: M, varsta 25, CNP: 512378910, are afectiunile: [tuse, febra, minte]. 
+Pacientul cu id-ul 10, pe nume Ioana Crizantema, sex: F, varsta 25, CNP: 51234578910, are afectiunile: []. . Pacientul este un pensionar, avand cuponul de pensie 23423, pensia de 2000 RON si bedeficiaza de o derucere de3..
+Pacientul cu id-ul 8, pe nume Popa Alex, sex: F, varsta 25, CNP: 512345678910, are afectiunile: [tuse, febra, ceva]. Pacientul are adeverinta de venit, cu salariul 1123 RON, angajatorul fiind Apple
+Pacientul cu id-ul 4, pe nume Popa Alin, sex: M, varsta 25, CNP: 513278910, are afectiunile: [tuse, febra, ciuma]. 
+Pacientul cu id-ul 1, pe nume Popa Crizantem, sex: M, varsta 25, CNP: 512345678910, are afectiunile: [tuse, febra]. 
+Pacientul cu id-ul 1, pe nume Popa Narcisa, sex: F, varsta 60, CNP: 512345678910, are afectiunile: [tusa, febra]. 
+Pacientul cu id-ul 5, pe nume Popa Popica, sex: F, varsta 25, CNP: 512310, are afectiunile: [tuse, febra, roseata]. Pacientul are adeverinta de venit, cu salariul 57 RON, angajatorul fiind IBM

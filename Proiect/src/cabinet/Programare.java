@@ -10,11 +10,10 @@ public class Programare {
     private String numeMedic;
     private String prenumeMedic;
 
-    /**
-     * public Programare()
-     * {
-     * }
-     //*/
+    //**
+    public Programare() {
+    }
+    //*/
 
     public Programare(int id, String numeClient, String prenumeClient, int data,
                       int ora, int cost, String numeMedic, String prenumeMedic)
@@ -89,7 +88,7 @@ public class Programare {
         return  prenumeMedic;
     }
 
-    public void setPrenumeMedic() {
+    public void setPrenumeMedic(String prenumeMedic) {
         this.prenumeMedic = prenumeMedic;
     }
 

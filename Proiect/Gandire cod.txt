@@ -1,0 +1,74 @@
+1) 	Definirea sistemului
+Sa se creeze o lista pe baza temei alese cu cel putin 10 actiuni/interogari care se pot face in cadrul sistemului si o lista cu cel putin 8 tipuri de obiecte.
+
+2) 	Implementare
+	Sa se implementeze in limbajul Java o aplicatie pe baza celor definite la primul punct.
+
+Aplicatia va contine:
+
+	clase simple cu atribute private / protected si metode de acces;
+👌	cel putin 2 array-uri uni/bidimensionale dintre care macar unul sa fie sortat;
+👌	utilizare mostenire pentru crearea de clase aditionale si utilizarea lor in cadrul colectiilor;
+	cel putin o clasa serviciu care sa expuna operatiile sistemului; 
+	o clasa Main din care sunt facute apeluri catre servicii;
+
+1.	Client/Pacient:
+- sex;
+- nume;
+(- prenume;)
+- varsta;
+- CNP;
+- afectiune;
+- 
+care sunt mostenite in clasele : Copil, Salariat, Pensionar
+
+2.	Copil:
+- numeTutore;
+- PrenumeTutore;
+- telefon_parinte:
+-
+
+3.	Salariat:
+- adeverinte_venit(int);
+- angajator(char);
+
+4.	Pensionar:
+- id_cupon_pensie;
+- pensie;
+- procent_reducere(pacientul bedeficiaza de reducere in functie de pensia lui);
+- 
+
+
+5.	Programare:
+- id/cod;
+- nume_client/nume_pacient;
+- data;
+- ora;
+- cost;
+- nume_doctor;
+- prenume_doctor;
+
+6.	Medic:
+- id
+- nume;
+(- prenume;)
+- specializare;
+- numar_pacienti;
+- localitate(bit); (0 - rural, 1 - urban)
+- numar_asistenti;
+- array[] asistente;
+
+7.	Asistent:
+- id;
+- nume;
+(- prenume;)
+- medic;
+
+8.	Reteta:
+- id_reteta/cod_reteta;
+- id_client/id_pacient;
+- id_medic;
+- data;
+- numar_medicamente;
+- array[] medicamente;
+- 

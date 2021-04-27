@@ -1,0 +1,84 @@
+
+Am inceput sa rulez programul, 2021-04-27 18:37:29.226
+adaugaClient, 2021-04-27 18:37:29.439
+adaugaClient, 2021-04-27 18:37:29.443
+adaugaClient, 2021-04-27 18:37:29.444
+afisareListaClientiSortat, 2021-04-27 18:37:29.695
+
+Am terminat de rulat programul, 2021-04-27 18:37:36.245
+
+Am inceput sa rulez programul
+, 2021-04-27 23:36:10.131
+adaugaClient, 2021-04-27 23:36:10.188
+adaugaClient, 2021-04-27 23:36:10.189
+adaugaClient, 2021-04-27 23:36:10.19
+afisareListaClientiSortat, 2021-04-27 23:36:10.284
+
+Am inceput sa rulez programul
+, 2021-04-27 23:37:17.926
+adaugaClient, 2021-04-27 23:37:17.975
+adaugaClient, 2021-04-27 23:37:17.975
+adaugaClient, 2021-04-27 23:37:17.976
+afisareListaClientiSortat, 2021-04-27 23:37:18.046
+adaugaClient, 2021-04-27 23:39:32.735
+afisareAdaugaClient, 2021-04-27 23:39:32.735
+adaugaClient, 2021-04-27 23:40:03.619
+afisareAdaugaClient, 2021-04-27 23:40:03.619
+
+Am inceput sa rulez programul
+, 2021-04-27 23:42:05.812
+adaugaClient, 2021-04-27 23:42:05.868
+adaugaClient, 2021-04-27 23:42:05.869
+adaugaClient, 2021-04-27 23:42:05.869
+afisareListaClientiSortat, 2021-04-27 23:42:05.93
+adaugaClient, 2021-04-27 23:42:27.111
+afisareAdaugaClient, 2021-04-27 23:42:27.111
+afisareClienti, 2021-04-27 23:43:19.874
+
+Am inceput sa rulez programul
+, 2021-04-27 23:45:20.619
+adaugaClient, 2021-04-27 23:45:20.667
+adaugaClient, 2021-04-27 23:45:20.668
+adaugaClient, 2021-04-27 23:45:20.668
+afisareListaClientiSortat, 2021-04-27 23:45:20.732
+adaugaClient, 2021-04-27 23:45:37.569
+afisareAdaugaClient, 2021-04-27 23:45:37.57
+afisareClienti, 2021-04-27 23:45:42.888
+
+Am inceput sa rulez programul
+, 2021-04-27 23:47:30.591
+adaugaClient, 2021-04-27 23:47:30.627
+adaugaClient, 2021-04-27 23:47:30.628
+adaugaClient, 2021-04-27 23:47:30.629
+afisareListaClientiSortat, 2021-04-27 23:47:30.68
+
+Am inceput sa rulez programul
+, 2021-04-27 23:47:38.409
+adaugaClient, 2021-04-27 23:47:38.447
+adaugaClient, 2021-04-27 23:47:38.448
+adaugaClient, 2021-04-27 23:47:38.449
+afisareListaClientiSortat, 2021-04-27 23:47:38.527
+adaugaClient, 2021-04-27 23:47:53.086
+afisareAdaugaClient, 2021-04-27 23:47:53.086
+afisareClienti, 2021-04-27 23:47:55.025
+
+Am inceput sa rulez programul
+, 2021-04-27 23:49:49.26
+adaugaClient, 2021-04-27 23:49:49.292
+adaugaClient, 2021-04-27 23:49:49.292
+adaugaClient, 2021-04-27 23:49:49.292
+afisareListaClientiSortat, 2021-04-27 23:49:49.345
+adaugaClient, 2021-04-27 23:50:00.408
+afisareAdaugaClient, 2021-04-27 23:50:00.408
+afisareClienti, 2021-04-27 23:50:02.258
+
+Am inceput sa rulez programul
+, 2021-04-27 23:50:53.604
+adaugaClient, 2021-04-27 23:50:53.641
+adaugaClient, 2021-04-27 23:50:53.642
+adaugaClient, 2021-04-27 23:50:53.642
+afisareListaClientiSortat, 2021-04-27 23:50:53.695
+adaugaClient, 2021-04-27 23:51:04.05
+afisareAdaugaClient, 2021-04-27 23:51:04.051
+afisareClienti, 2021-04-27 23:51:05.389
+afisareClienti, 2021-04-27 23:53:12.222

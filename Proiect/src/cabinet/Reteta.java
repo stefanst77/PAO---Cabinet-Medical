@@ -6,14 +6,13 @@ public class Reteta {
     private int idReteta;
     private int idClient;
     private int idMedic;
-    private int data; // hhmm
+    private int data; // zzllaaaa
     private String[] medicamente;
 
-    /**
-     *  public Reteta()
-     *  {
-     *  }
-     //*/
+    //**
+    public Reteta() {
+    }
+    //*/
 
     public Reteta(int idReteta, int idClient, int idMedic,
                   int data, String[] medicamente)

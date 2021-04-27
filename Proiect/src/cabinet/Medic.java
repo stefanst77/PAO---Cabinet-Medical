@@ -10,11 +10,10 @@ public class Medic {
     private int numarPacienti;
     private String[] pacienti;
 
-    /**
-     * public Medic()
-     * {
-     * }
-     //*/
+    //**
+    public Medic() {
+    }
+    //*/
 
     public Medic(int id, String nume, String prenume, String specializare,
                  int numarPacienti, String[] pacienti)

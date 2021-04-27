@@ -9,8 +9,4 @@ public class SortComparator implements Comparator<Client> {
             return c1.getPrenume().compareTo(c2.getPrenume());
         return c1.getNume().compareTo(c2.getNume());
     }
-
-    public int compareId(Client c1, Client c2) {
-        return c1.getId() - c2.getId();
-    }
 }

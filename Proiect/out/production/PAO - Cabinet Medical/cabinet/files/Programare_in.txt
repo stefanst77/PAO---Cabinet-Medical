@@ -1,0 +1,2 @@
+1, Popescu, Stefan, 20042020, 1230, 100, Madalina, Adam
+2, Boriga, Radu, 31122021, 2359, 20, Dumitran, Marius
