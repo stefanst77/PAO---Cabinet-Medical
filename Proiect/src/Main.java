@@ -3,6 +3,7 @@ import cabinet.exceptions.FileReadingException;
 import cabinet.exceptions.FileWritingException;
 import cabinet.readwriteservice.ReadService;
 import cabinet.readwriteservice.WriteService;
+import cabinet.repo.MedicRepo;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -88,6 +89,10 @@ public class Main {
         WriteService.writeReteta(retetaArrayList, false);
 
         Init(listaClienti);
+
+        MedicRepo medicRepo = new MedicRepo();
+        medicRepo.createTable();
+        //System.out.println(medicRepo.createTable());
     }
 }
 

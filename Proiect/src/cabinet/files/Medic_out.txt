@@ -1,4 +1,4 @@
-Medicul Cuc Daniela, specializat in oftalmolog, are 3 pacienti, [1, 2, 3].
+69. Medicul Cuc Daniela, specializat in oftalmolog, are 3 pacienti, [1, 2, 3].
 
-Medicul Letitia BazeDate, specializat in Scumpa, are 1 pacienti, [7].
+108. Medicul Letitia BazeDate, specializat in Scumpa, are 1 pacienti, [7].
 

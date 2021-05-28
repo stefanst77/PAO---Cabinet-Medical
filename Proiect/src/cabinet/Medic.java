@@ -15,10 +15,10 @@ public class Medic {
     }
     //*/
 
-    public Medic(int id, String nume, String prenume, String specializare,
+    public Medic(String nume, String prenume, String specializare,
                  int numarPacienti, String[] pacienti)
     {
-        this.id = id;
+        this.id = 0;
         this.nume = nume;
         this.prenume = prenume;
         this.specializare = specializare;
@@ -76,7 +76,7 @@ public class Medic {
 
     @Override
     public String toString() {
-        return "Medicul " + nume + " " + prenume + ", specializat in " + specializare +
+        return id + ". Medicul " + nume + " " + prenume + ", specializat in " + specializare +
                 ", are " + numarPacienti + " pacienti, " + Arrays.toString(pacienti) + ".\n";
     }
 }
